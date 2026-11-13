@@ -1,0 +1,19 @@
+package number_series;
+import java.util.Scanner;
+class FactorialNumber {
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Enter the number: ");
+		int n = sc.nextInt();
+		sc.close();
+		
+		int prod = 1;
+		
+		for(int i=1; i<=n; i++)
+		{
+			prod = prod*i;
+		}
+		System.out.println(prod);
+	}
+	
+}

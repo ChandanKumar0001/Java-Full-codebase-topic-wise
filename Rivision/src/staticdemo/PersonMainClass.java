@@ -1,0 +1,12 @@
+package staticdemo;
+
+class PersonMainClass {
+	
+	public static void main(String[] args) {
+		System.out.println("Name: "+Person.name);
+		System.out.println("Age: "+Person.age);
+		System.out.println("Height: "+Person.height);
+		Person.walk();
+		Person.sleep();
+	}
+}

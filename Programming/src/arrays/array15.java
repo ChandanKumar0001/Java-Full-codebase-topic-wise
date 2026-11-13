@@ -1,0 +1,24 @@
+// WAJP to merge two array
+package arrays;
+
+class array15 {
+	public static void main(String[] args) {
+		
+		//First way
+		int[] ar = ArrayOperations.readArray();
+		
+		//Second way
+		int[] br = ArrayOperations.readArray();
+		int[] cr = new int[ar.length+br.length];
+		
+		//to store 1st array elements
+		for(int i=0; i<ar.length; i++)
+			cr[i] = ar[i];
+		
+		//to store 2nd array elements
+		for(int j=0; j<br.length; j++)
+			cr[ar.length+j]=br[j];
+		
+		ArrayOperations.display(cr);
+	}
+}
