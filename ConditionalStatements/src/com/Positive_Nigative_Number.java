@@ -1,0 +1,20 @@
+package com;
+
+public class Positive_Nigative_Number {
+	
+	public static void main(String[] args) {
+		
+		int num = 53;
+		
+		if(num >= 0) {
+			
+			System.out.println("This is a positive number ");	
+		}
+		
+		else {
+			
+			System.out.println("This is a nigative number ");
+		}
+	}
+
+}

@@ -1,0 +1,14 @@
+package com;
+
+public class Even_Number_Print {
+	
+	public static void main(String[] args) {
+		
+		// print even number from 1-10
+		for(int i=2; i<=10 && i%2==0; i=i+2) {
+			
+			System.out.println(i);
+		}
+	}
+
+}

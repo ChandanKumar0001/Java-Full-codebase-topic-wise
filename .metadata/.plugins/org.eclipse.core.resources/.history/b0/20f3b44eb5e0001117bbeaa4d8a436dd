@@ -1,0 +1,42 @@
+package com;
+
+public class Matrimony {
+	
+	public static void main(String[] args) {
+		
+		int age = 19;
+		char gender = 'g';
+		
+		if (gender == 'M') {
+			
+			if (age >= 21) {
+				
+				System.out.println("Married");
+			}
+			
+			else {
+				
+				System.out.println("Child");
+			}
+			
+		}
+		
+		else if (gender == 'F'){
+			
+			if (age >= 18) {
+				
+				System.out.println("Married");
+			}
+			else {
+				
+				System.out.println("Child");
+			}
+		}
+		
+		else {
+			
+			System.out.println("Invalid input!");
+		}
+	}
+
+}
